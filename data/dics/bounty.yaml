@@ -1,0 +1,37 @@
+hint_red_imp:
+  hint: "Red ghost, Slapping butt"
+  shiki: "red_imp"
+hint_yellow_imp:
+  hint: "Drum, Single eye"
+  shiki: "yellow_imp"
+hint_blue_imp:
+  hint: "Blue skin, Kite"
+  shiki: "blue_imp"
+hint_nurikabe:
+  hint: "Stone, Moss wall"
+  shiki: "nurikabe"
+hint_mio:
+  hint: "Cherry tree, Red"
+  shiki: "mio"
+hint_zashiki:
+  hint: "Fortune, Luck wealth"
+  shiki: "zashiki"
+hint_koi:
+  hint: "Pond, Tail"
+  shiki: "koi"
+hint_kappa:
+  hint: "Water, Lily leaf, Pond"
+  shiki: "kappa"
+hint_oguna:
+  hint: "Wings, Offering"
+  shiki: "oguna"
+hint_doujo:
+  hint: "Wings, Young girl"
+  shiki: "doujo"
+hint_karasu_tengu:
+  hint: "Naginata, Mask"
+  shiki: "karasu_tengu"
+hint_kusa:
+  hint: "Dandelion, Healing"
+  shiki: "kusa"
+

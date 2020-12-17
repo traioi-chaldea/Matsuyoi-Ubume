@@ -1,0 +1,56 @@
+yellow_imp:
+  esub: "Yellow Imp"
+  vsub: "Thiên Tà Quỷ Hoàng"
+  type: "N"
+  describe: "Qủy lùn màu cam, chơi trống."
+yuki_onna:
+  esub: "Yuki Onna"
+  vsub: "Tuyết Nữ"
+  type: "SR"
+mio:
+  esub: "Mio"
+  vsub: "Cáo Ba Đuôi"
+  type: "SR"
+momo_no_sei:
+  vsub: "Đào Hoa Yêu"
+  type: "SR"
+koi:
+  esub: "Koi"
+  vsub: "Lý Ngư Tinh"
+  type: "R"
+red_imp:
+  esub: "Red Imp"
+  vsub: "Thiên Tà Quỷ Xích"
+  type: "N"
+blue_imp:
+  esub: "Blue Imp"
+  vsub: "Thiên Tà Quỷ Lam"
+  type: "N"
+nurikabe:
+  esub: "Nurikabe"
+  vsub: "Đồ Bích"
+  type: "N"
+zashiki:
+  esub: "Zashiki"
+  vsub: "Tọa Phu Đồng Tử"
+  type: "R"
+kappa:
+  esub: "Kappa"
+  vsub: "Hà Đồng"
+  type: "R"
+oguna:
+  esub: "Oguna"
+  vsub: "Đồng Nam"
+  type: "R"
+doujo:
+  esub: "Doujo"
+  vsub: "Đồng Nữ"
+  type: "R"
+karasu_tengu:
+  esub: "Karasu Tengu"
+  vsub: "Nha Thiên Cẩu"
+  type: "R"
+kusa:
+  esub: "Kusa"
+  vsub: "Huỳnh Thảo"
+  type: "R"

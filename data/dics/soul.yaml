@@ -1,0 +1,129 @@
+aonyobo:
+  type: "Crit"
+  vsub: "Thanh nữ phòng"
+azure_basan:
+  type: "Effect HIT"
+  vsub: "Hỏa linh"
+boroboroton:
+  type: "HP"
+  vsub: "Miêu phục"
+claws:
+  type: "Crit"
+  vsub: "Võng thiết"
+dawn_fairy:
+  type: "Def"
+  vsub: "Nhật nữ"
+dice_sprite:
+  type: "Effect RES"
+  vsub: "Xí ngầu"
+fortune_cat:
+  type: "Def"
+  vsub: "Chiêu tài"
+odokuro:
+  type: "Boss"
+  vsub: "Hoàng cốt lâu"
+ghostly_songstress:
+  type: "Boss"
+  vsub: "Quỷ linh ca kỹ"
+harpy:
+  type: "ATK"
+  vsub: "Âm ma"
+fenikkusu:
+  type: "Crit"
+  vsub: "Hỏa kê"
+holy_flame:
+  type: "HP"
+  vsub: "Niết bàn"
+house_imp:
+  type: "ATK"
+  vsub: "Minh ốc"
+hyosube:
+  type: "ATK"
+  vsub: "Binh chủ bộ"
+jishin_namazu:
+  type: "Boss"
+  vsub: "Cá trê"
+jizo_statue:
+  type: "HP"
+  vsub: "Địa tạng"
+kyoukotsu:
+  type: "ATK"
+  vsub: "Cuồng cốt"
+mimic:
+  type: "Effect RES"
+  vsub: "Ma hạp"
+mirror_lady:
+  type: "HP"
+  vsub: "Kính cơ"
+tsuchigumo:
+  type: "Boss"
+  vsub: "Nhện đất"
+watcher:
+  type: "ATK"
+  vsub: "Tâm nhãn"
+yamabiko:
+  type: "Effect RES"
+  vsub: "U cốc"
+soul_edge:
+  type: "HP"
+  vsub: "Thế hồn"
+soultaker:
+  type: "ATK"
+  vsub: "Luân đạo"
+temptress:
+  type: "Def"
+  vsub: "Mị yêu"
+tomb_guard:
+  type: "Crit"
+  vsub: "Trấn mộ"
+tree_nymph:
+  type: "Def"
+  vsub: "Mộc mị"
+tree_spirit:
+  type: "HP"
+  vsub: "Thụ yêu"
+samisen:
+  type: "Crit"
+  vsub: "Tam vị"
+scarlet:
+  type: "ATK"
+  vsub: "Tranh"
+sea_sprite:
+  type: "Effect HIT"
+  vsub: "Bạng tinh"
+seductress:
+  type: "Crit"
+  vsub: "Châm nữ"
+senecio:
+  type: "Effect RES"
+  vsub: "Quỷ hồn"
+shadow:
+  type: "Crit"
+  vsub: "Phá thế"
+shinkirou:
+  type: "Boss"
+  vsub: "Ốc"
+shy_soul:
+  type: "Def"
+  vsub: "Phản chẫm"
+snow_spirit:
+  type: "Def"
+  vsub: "Tuyết hồn"
+nightwing:
+  type: "ATK"
+  vsub: "Dơi yêu"
+nuribotoko:
+  type: "HP"
+  vsub: "Độ phật"
+oboroguruma:
+  type: "Boss"
+  vsub: "Lung xa"
+pearl:
+  type: "Def"
+  vsub: "Trân châu"
+priestess:
+  type: "HP"
+  vsub: "Chung linh"
+all:
+  type: "all"
+  vsub: "Tất cả ngự hồn"

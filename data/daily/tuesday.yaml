@@ -1,0 +1,16 @@
+# Tuesday
+7:
+  netherworld_gate: false
+  demon_encounter: "ghostly_songstress"
+8:
+  guild_raid: "fire"
+12:
+  maintenance: false
+  soul_zone_10: ["holy_flame", "fortune_cat", "scarlet", "samisen"]
+  soul_zone_11: "yamabiko"
+  totem_zone: "seimei"
+18:
+  demon_encounter: "shinkirou"
+  netherworld_gate: false
+21:
+  guild_feast: false

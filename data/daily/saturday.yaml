@@ -1,0 +1,16 @@
+# Saturday
+7:
+  netherworld_gate: true
+  demon_encounter: "oboroguruma"
+8:
+  guild_raid: false
+12:
+  maintenance: false
+  soul_zone_10: ["all"]
+  soul_zone_11: "azure_basan"
+  totem_zone: "all"
+18:
+  demon_encounter: "oboroguruma"
+  netherworld_gate: true
+21:
+  guild_feast: true

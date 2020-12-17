@@ -1,0 +1,16 @@
+# Friday
+7:
+  netherworld_gate: false
+  demon_encounter: "jishin_namazu"
+8:
+  guild_raid: "thunder"
+12:
+  maintenance: false
+  soul_zone_10: ["mirror_lady", "dawn_fairy", "priestess", "shadow"]
+  soul_zone_11: "kyoukotsu"
+  totem_zone: "yaobikuni"
+18:
+  demon_encounter: "oboroguruma"
+  netherworld_gate: true
+21:
+  guild_feast: false

@@ -1,0 +1,9 @@
+orochi:
+	name: "Rắn"
+	mon: ["jizo_statue", "snow_spirit", "house_imp", "claws", "sea_sprite"]
+	tue: ["holy_flame", "fortune_cat", "scarlet", "samisen", "yamabiko"]
+	wed: ["boroboroton", "temptress", "harpy", "mimic", "soultaker"]
+	thu: ["tree_spirit", "shy_soul", "watcher", "seductress", "nightwing"]
+	fri: ["mirror_lady", "dawn_fairy", "priestess", "shadow", "kyoukotsu"]
+	sat: ["azure_basan"]
+	sun: ["azure_basan"]
