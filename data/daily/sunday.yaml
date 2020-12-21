@@ -3,7 +3,7 @@
   netherworld_gate: true
   demon_encounter: "oboroguruma"
 8:
-  guild_raid: false
+  guild_raid:
 12:
   maintenance: false
   soul_zone_10: ["all"]

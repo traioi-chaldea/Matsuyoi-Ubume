@@ -3,7 +3,7 @@
   netherworld_gate: true
   demon_encounter: "tsuchigumo"
 8:
-  guild_raid: false
+  guild_raid:
 12:
   maintenance: false
   soul_zone_10: ["jizo_statue", "snow_spirit", "house_imp", "claws"]
