@@ -8,7 +8,7 @@
   maintenance: false
   soul_zone_10: ["boroboroton", "temptress", "harpy", "mimic"]
   soul_zone_11: "soultaker"
-  totem_zone: "sakura"
+  totem_zone: "kagura"
 18:
   demon_encounter: "odokuro"
   netherworld_gate: false
