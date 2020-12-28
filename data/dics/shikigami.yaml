@@ -1,56 +1,447 @@
-yellow_imp:
-  esub: "Yellow Imp"
-  vsub: "Thiên Tà Quỷ Hoàng"
-  type: "N"
-  describe: "Qủy lùn màu cam, chơi trống."
-yuki_onna:
-  esub: "Yuki Onna"
-  vsub: "Tuyết Nữ"
-  type: "SR"
-mio:
-  esub: "Mio"
-  vsub: "Cáo Ba Đuôi"
-  type: "SR"
-momo_no_sei:
-  vsub: "Đào Hoa Yêu"
-  type: "SR"
-koi:
-  esub: "Koi"
-  vsub: "Lý Ngư Tinh"
-  type: "R"
-red_imp:
-  esub: "Red Imp"
-  vsub: "Thiên Tà Quỷ Xích"
-  type: "N"
-blue_imp:
-  esub: "Blue Imp"
-  vsub: "Thiên Tà Quỷ Lam"
-  type: "N"
-nurikabe:
-  esub: "Nurikabe"
-  vsub: "Đồ Bích"
-  type: "N"
-zashiki:
-  esub: "Zashiki"
-  vsub: "Tọa Phu Đồng Tử"
-  type: "R"
-kappa:
-  esub: "Kappa"
-  vsub: "Hà Đồng"
-  type: "R"
-oguna:
-  esub: "Oguna"
-  vsub: "Đồng Nam"
-  type: "R"
-doujo:
-  esub: "Doujo"
-  vsub: "Đồng Nữ"
-  type: "R"
-karasu_tengu:
-  esub: "Karasu Tengu"
-  vsub: "Nha Thiên Cẩu"
-  type: "R"
-kusa:
-  esub: "Kusa"
-  vsub: "Huỳnh Thảo"
-  type: "R"
+# SSN
+SSN:
+  ootengu_frog:
+  shuten_frog:
+  arakawa_frog:
+  enma_frog:
+  shishio_frog:
+  ibaraki_frog:
+  aoandon_frog:
+  yoto_hime_frog:
+  ichimokuren_frog:
+  hana_frog:
+  kaguya_frog:
+  susabi_frog:
+  higanbana_frog:
+
+# N
+N:
+  lantern_soul:
+    esub: "Lantern Soul"
+    vsub: "Đăng Lung Quỷ"
+  lantern_boy:
+    esub: "Lantern Boy"
+    vsub: "Đề Đăng Tiểu Tăng"
+  akashita:
+    esub: "Akashita"
+    vsub: "Xích Thiệt"
+  grave_digger:
+    esub: "Grave Digger"
+    vsub: "Đạo Mộ Tiểu Quỷ"
+  parasite:
+    esub: "Parasite"
+    vsub: "Ký Sinh Linh"
+  umbrella:
+    esub: "Umbrella"
+    vsub: "Đường Chỉ Tán Yêu"
+  green_imp:
+    esub: "Green Imp"
+    vsub: "Thiên Tà Lục Yêu"
+  red_imp:
+    esub: "Red Imp"
+    vsub: "Thiên Tà Quỷ Xích"
+  yellow_imp:
+    esub: "Yellow Imp"
+    vsub: "Thiên Tà Quỷ Hoàng"
+  blue_imp:
+    esub: "Blue Imp"
+    vsub: "Thiên Tà Quỷ Lam"
+  hahakigami:
+    esub: "Hahakigami"
+    vsub: "Trửu Thần"
+  nurikabe:
+    esub: "Nurikabe"
+    vsub: "Đồ Bích"
+
+# R
+R:
+  mio:
+    esub: "Mio"
+    vsub: "Tam Vĩ Hồ"
+  zashiki:
+    esub: "Zashiki"
+    vsub: "Tọa Phu Đồng Tử"
+  koi:
+    esub: "Koi"
+    vsub: "Lý Ngư Tinh"
+  kyuumei_neko:
+    esub: "Kyuumei Neko"
+    vsub: "Cửu Mệnh Miêu"
+  tanuki:
+    esub: "Tanuki"
+    vsub: "Ly Miêu"
+  kappa:
+    esub: "Kappa"
+    vsub: "Hà Đồng"
+  oguna:
+    esub: "Oguna"
+    vsub: "Đồng Nam"
+  doujo:
+    esub: "Doujo"
+    vsub: "Đồng Nữ"
+  gaki:
+    esub: "Gaki"
+    vsub: "Ngạ Quỷ"
+  kodokushi:
+    esub: "Kodokushi"
+    vsub: "Vu Cổ Sư"
+  karasu_tengu:
+    esub: "Karasu Tengu"
+    vsub: "Nha Thiên Cẩu"
+  kamikui:
+    esub: "Kamikui"
+    vsub: "Thực Phát Quỷ"
+  warrior_soul:
+    esub: "Warrior Soul"
+    vsub: "Võ Sĩ Chi Linh"
+  ame_onna:
+    esub: "Ame Onna"
+    vsub: "Vũ Nữ"
+  kyonshi_ototo:
+    esub: "Kyonshi Ototo"
+    vsub: "Khiêu Khiêu Đệ Đệ"
+  kyonshi_imoto:
+    esub: "Kyonshi Imoto"
+    vsub: "Khiêu Khiêu Muội Muội"
+  samurai_x:
+    esub: "Samurai X"
+    vsub: "Binh Dũng"
+  ushi_no_toki:
+    esub: "Ushi No Toki"
+    vsub: "Sửu Thì Chi Nữ"
+  hitotsume:
+    esub: "Hitotsume"
+    vsub: "Độc Nhãn Tiểu Tăng"
+  tesso:
+    esub: "Tesso"
+    vsub: "Thiết Thử"
+  shouzu:
+    esub: "Shouzu"
+    vsub: "Tiêu Đồ"
+  kanko:
+    esub: "Kanko"
+    vsub: "Quản Hồ"
+  yamausagi:
+    esub: "Yamausagi"
+    vsub: "Sơn Thố"
+  kusa:
+    esub: "Kusa"
+    vsub: "Huỳnh Thảo"
+  chocho:
+    esub: "Chocho"
+    vsub: "Hồ Điệp Tinh"
+  yamawaro:
+    esub: "Yamawaro"
+    vsub: "Sơn Đồng"
+  kubinashi:
+    esub: "Kubinashi"
+    vsub: "Vô Thủ"
+  satori:
+    esub: "Satori"
+    vsub: "Giác"
+  jikikaeru:
+    esub: "Jikikaeru"
+    vsub: "Thanh Oa Từ Khí"
+  koroka:
+    esub: "Koroka"
+    vsub: "Cổ Lung Hỏa"
+  mushishi:
+    esub: "Mushishi"
+    vsub: "Trùng Sư"
+
+# SR
+SR:
+  momo:
+    esub: "Momo"
+    vsub: "Đào Hoa Yêu"
+  yuki_onna:
+    esub: "Yuki Onna"
+    vsub: "Tuyết Nữ"
+  shiro_mujou:
+    esub: "Shiro Mujou"
+    vsub: "Quỷ Sứ Bạch"
+  kuro_mujou:
+    esub: "Kuro Mujou"
+    vsub: "Quỷ Sứ Hắc"
+  mouba:
+    esub: "Mouba"
+    vsub: "Mạnh Bà"
+  inugami:
+    esub: "Inugami"
+    vsub: "Khuyển Thần"
+  hone_onna:
+    esub: "Hone Onna"
+    vsub: "Cốt Nữ"
+  momiji:
+    esub: "Momiji"
+    vsub: "Quỷ Nữ Hồng Diệp"
+  kyonshi_ani:
+    esub: "Kyonshi Ani"
+    vsub: "Khiêu Khiêu Ca Ca"
+  puppeteer:
+    esub: "Puppeteer"
+    vsub: "Khôi Lỗi Sư"
+  umibozu:
+    esub: "Umibozu"
+    vsub: "Hải Phường Chủ"
+  hangan:
+    esub: "Hangan"
+    vsub: "Phán Quan"
+  hououka:
+    esub: "Houhouka"
+    vsub: "Hỏa Phượng Hoàng"
+  vampira:
+    esub: "Vampira"
+    vsub: "Hấp Huyết Cơ"
+  youko:
+    esub: "Youko"
+    vsub: "Yêu Hồ"
+  maestro:
+    esub: "Maestro"
+    vsub: "Yêu Cầm Sư"
+  yumekui:
+    esub: "Yumekui"
+    vsub: "Thực Mộng Mô"
+  kiyohime:
+    esub: "Kiyohime"
+    vsub: "Thanh Cơ"
+  kamaitachi:
+    esub: "Kamaitachi"
+    vsub: "Liêm Dứu"
+  ubume:
+    esub: "Ubume"
+    vsub: "Cô Hoạch Điểu"
+  futakuchi:
+    esub: "Futakuchi"
+    vsub: "Nhị Khẩu Nữ"
+  hakuro:
+    esub: "Hakuro"
+    vsub: "Bạch Lang"
+  sakura:
+    esub: "Sakura"
+    vsub: "Anh Hoa Yêu"
+  ebisu:
+    esub: "Ebisu"
+    vsub: "Huệ Bỉ Thọ"
+  jorogumo:
+    esub: "Jorogumo"
+    vsub: "Lạc Tân Phụ"
+  hannya:
+    esub: "Hannya"
+    vsub: "Bát Nhã"
+  aobozu:
+    esub: "Aobozu"
+    vsub: "Thanh Phường Chủ"
+  yasha:
+    esub: "Yasha"
+    vsub: "Dạ Xoa"
+  kuro:
+    esub: "Kuro"
+    vsub: "Hắc Đồng Tử"
+  shiro:
+    esub: "Shiro"
+    vsub: "Bạch Đồng Tử"
+  enenra:
+    esub: "Enenra"
+    vsub: "Yên Yên La"
+  kingyo:
+    esub: "Kingyo"
+    vsub: "Kim Ngư Cơ"
+  chin:
+    esub: "Chin"
+    vsub: "Trậm Điểu"
+  itsumade:
+    esub: "Itsumade"
+    vsub: "Dĩ Tân Chân Thiên"
+  hako_shoujo:
+    esub: "Hako Shoujo"
+    vsub: "Hạp Trung Thiếu Nữ"
+  bukkuman:
+    esub: "Bukkuman"
+    vsub: "Thư Ông"
+  oitsuki:
+    esub: "Oitsuki"
+    vsub: "Truy Nguyệt Thần"
+  kaoru:
+    esub: "Kaoru"
+    vsub: "Huân"
+  kisei:
+    esub: "Kisei"
+    vsub: "Dịch"
+  nekomata:
+    esub: "Nekomata"
+    vsub: "Miêu Chưởng Quỹ"
+  okikumushi:
+    esub: "Okikumushi"
+    vsub: "Vu Cúc Trùng"
+  ittan_momen:
+    esub: "Ittan-Momen"
+    vsub: "Nhất Phản Mộc Miên"
+  okuribito:
+    esub: "Okuribito"
+    vsub: "Nhập Liệm Sư"
+  bake_kujira:
+    esub: "Bake-Kujira"
+    vsub: "Hóa Kình"
+  kujira:
+    esub: "Kujira"
+    vsub: "Cửu Thứ Lương"
+  kanihime:
+    esub: "Kanihime"
+    vsub: "Giải Cơ"
+  kamimai:
+    esub: "Kamimai"
+    vsub: "Chỉ Vũ"
+  hoshiguma_doji:
+    esub: "Hoshiguma Doji"
+    vsub: "Tinh Hùng Đồng Tử"
+  furi:
+    esub: "Furi"
+    vsub: "Phong Ly"
+  sasori:
+    esub: "Sasori"
+    vsub: "Yết Nữ"
+
+# SSR
+SSR:
+  ootengu:
+    esub: "Ootengu"
+    vsub: "Đại Thiên Cẩu"
+  shuten_doji:
+    esub: "Shuten Doji"
+    vsub: "Tửu Thôn Đồng Tử"
+  lord_arakawa:
+    esub: "Lord Arakawa"
+    vsub: "Hoang Xuyên Chi Chủ"
+  enma:
+    esub: "Enma"
+    vsub: "Diêm Ma"
+  shishio:
+    esub: "Shishio"
+    vsub: "Tiểu Lộc Nam"
+  ibaraki_doji:
+    esub: "Ibaraki Doji"
+    vsub: "Tỳ Mộc Đồng Tử"
+  aoandon:
+    esub: "Aoandon"
+    vsub: "Thanh Hành Đăng"
+  yoto_hime:
+    esub: "Yoto Hime"
+    vsub: "Yêu Đao Cơ"
+  ichimokuren:
+    esub: "Ichimokuren"
+    vsub: "Nhất Mục Liên"
+  hana:
+    esub: "Hana"
+    vsub: "Hoa Điểu Quyển"
+  kaguya:
+    esub: "Kaguya"
+    vsub: "Huy Dạ Cơ"
+  susabi:
+    esub: "Susabi"
+    vsub: "Hoang"
+  higanbana:
+    esub: "Higanbana"
+    vsub: "Bỉ Ngạn Hoa"
+  yuki:
+    esub: "Yuki"
+    vsub: "Tuyết Đồng Tử"
+  yamakaze:
+    esub: "Yamakaze"
+    vsub: "Sơn Phong"
+  tamamonomae:
+    esub: "Tamamonomae"
+    vsub: "Ngọc Tảo Tiền"
+  miketsu:
+    esub: "Miketsu"
+    vsub: "Ngự Soạn Tân"
+  menreiki:
+    esub: "Menreiki"
+    vsub: "Diện Linh Khí"
+  onikiri:
+    esub: "Onikiri"
+    vsub: "Quỷ Thiết"
+  hakuzosu:
+    esub: "Hakuzosu"
+    vsub: "Bạch Tàng Chủ"
+  orochi:
+    esub: "Orochi"
+    vsub: "Bát Kỳ Đại Xà"
+  shiranui:
+    esub: "Shiranui"
+    vsub: "Bất Tri Hỏa"
+  otakemaru:
+    esub: "Otakemaru"
+    vsub: "Đại Nhạc Hoàn"
+  takiyashahime:
+    esub: "Takiyashahime"
+    vsub: "Lang Dạ Xoa Cơ"
+  ungaikyo:
+    esub: "Ungaikyo"
+    vsub: "Vân Ngoại Kính"
+  kidomaru:
+    esub: "Kidomaru"
+    vsub: "Quỷ Đồng Hoàn"
+  enmusubi:
+    esub: "Enmusubi"
+    vsub: "Duyên Kết Thần"
+  suzuka_gozen:
+    esub: "Suzuka Gozen"
+    vsub: "Linh Lộc Ngự Tiền"
+  kinnara:
+    esub: "Kinnara"
+    vsub: "Khẩn Na La"
+  senhime:
+    esub: "Senhime"
+    vsub: "Thiên Cơ"
+ 
+# SP
+SP:
+  jr_ootengu:
+    esub: "Jr. Ootengu"
+    vsub: "Thiếu Vũ Đại Thiên Cẩu"
+  inferno_ibaraki_doji:
+    esub: "Inferno Ibaraki Doji"
+    vsub: "Luyện Ngục Tỳ Mộc Đồng Tử"
+  divine_miketsu:
+    esub: "Divine Miketsu"
+    vsub: "Đạo Hà Ngự Soạn Tân"
+  azurestorm_ichimokuren:
+    esub: "Azurestorm Ichimokuren"
+    vsub: "Thương Phong Nhất Mục Liên"
+  crimson_yoto:
+    esub: "Crimson Yoto"
+    vsub: "Xích Ảnh Yêu Đao Cơ"
+  vengeful_hannya:
+    esub: "Vengeful Hannya"
+    vsub: "Ngự Oán Bát Nhã"
+  waverider_lord_arakawa:
+    esub: "Waverider Lord Arakawa"
+    vsub: "Kiêu Lãng Hoang Xuyên Chi Chủ"
+  blazing_tamamonomae:
+    esub: "Blazing Tamamonomae"
+    vsub: "Tẫn Thiên Ngọc Tảo Tiền"
+  demoniac_shuten_doji:
+    esub: "Demoniac Shuten Doji"
+    vsub: "Quỷ Vương Tửu Thôn Đồng Tử"
+  onikiri_reforged:
+    esub: "Onikiri Reforged"
+    vsub: "Thiên Kiếm Nhận Tâm Quỷ Thiết"
+  seawatch_kingyo:
+    esub: "Seawatch Kingyo"
+    vsub: "Linh Hải Kim Ngư Cơ"
+  worldly_aoandon:
+    esub: "Worldly Aoandon"
+    vsub: "Phù Thế Thanh Hành Đăng"
+  lovebound_kiyohime:
+    esub: "Lovebound Kiyohime"
+    vsub: "Phược Cốt Thanh Cơ"
+  guardian_ubume:
+    esub: "Guardian Ubume"
+    vsub: "Đãi Tiêu Cô Hoạch Điểu"
+  monumental_otakemaru:
+    esub: "Monumental Otakemaru"
+    vsub: "Lộc Minh Đại Nhạc Hoàn"
+  valiant_yamakaze:
+    esub: "Valiant Yamakaze"
+    vsub: "Sơ Linh Sơn Phong"

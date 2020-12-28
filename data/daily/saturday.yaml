@@ -1,7 +1,7 @@
 # Saturday
 7:
   netherworld_gate: true
-  demon_encounter: "oboroguruma"
+  demon_encounter: "jishin_namazu"
 8:
   guild_raid:
 12:
@@ -10,7 +10,7 @@
   soul_zone_11: "azure_basan"
   totem_zone: "all"
 18:
-  demon_encounter: "oboroguruma"
+  demon_encounter: "tsuchigumo"
   netherworld_gate: true
 21:
   guild_feast: true

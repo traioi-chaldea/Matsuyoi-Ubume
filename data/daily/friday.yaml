@@ -1,7 +1,7 @@
 # Friday
 7:
   netherworld_gate: false
-  demon_encounter: "jishin_namazu"
+  demon_encounter: "odokuro"
 8:
   guild_raid: "thunder"
 12:
@@ -10,7 +10,7 @@
   soul_zone_11: "kyoukotsu"
   totem_zone: "yaobikuni"
 18:
-  demon_encounter: "oboroguruma"
+  demon_encounter: "jishin_namazu"
   netherworld_gate: true
 21:
   guild_feast: false

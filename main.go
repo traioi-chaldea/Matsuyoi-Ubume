@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/viper"
 
 	"github.com/TraiOi/notify"
-	"github.com/TraiOi/shikigami"
+	"github.com/TraiOi/summoning"
 )
 
 func main() {
@@ -36,7 +36,7 @@ func main() {
 	// Add bot features here
 	// `dg.AddHandler(<feature>)
 	notify.HandleNotify(dg)
-	shikigami.Test(dg)
+	dg.AddHandler(summoning.HandlerRare)
 
 	dg.Identify.Intents = discordgo.MakeIntent(discordgo.IntentsGuildMessages)
 
