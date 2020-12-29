@@ -26,40 +26,52 @@ type RareSummoning struct {
 }
 
 func HandlerRare(s *dgo.Session, m *dgo.MessageCreate) {
+	vp := viper.New()
+	vp.SetConfigName("discord.yaml")
+	vp.SetConfigType("yaml")
+	vp.AddConfigPath("config/")
+
+	err := vp.ReadInConfig()
+	if err != nil {
+		panic(err)
+	}
+	channel := vp.GetString("ChannelSummoning")
+
 	if m.Author.ID == s.State.User.ID {
 		return
 	}
+	if m.ChannelID != channel {
+		return
+	}
+	userID := m.Author.ID
+	userName := m.Author.Username
 
+	rsum := new(RareSummoning)
+	listShiki := rsum.getListShikigami()
+	tmp := rsum.sum10(listShiki)
+	rsum.mergeShikiImg(tmp, userID)
+
+	fileName := "./tmp/rsum_" + userID + ".png"
+	f, err := os.Open(fileName)
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
+
+	ms := &dgo.MessageSend{
+		Files: []*dgo.File{
+			 &dgo.File{
+		            Name:   fileName,
+			    Reader: f,
+			},
+		},
+		Content: "Chúc mừng **" + userName + "** đã triệu hồi được các thức thần:",
+	}
+	if m.Content == "/test" {
+		s.ChannelMessageSendComplex("788343042461401118", ms)
+	}
 	if m.Content == "/rsum" {
-		rsum := new(RareSummoning)
-		listShiki := rsum.getListShikigami()
-		tmp := rsum.sum10(listShiki)
-		shikiInfo := rsum.getShikiInfo(tmp)
-		s.ChannelMessageSend(m.ChannelID, shikiInfo)
-		rsum.mergeShikiImg(tmp)
-
-		fileName := "./tmp/rsum.png"
-		f, err := os.Open(fileName)
-		if err != nil {
-			panic(err)
-		}
-		defer f.Close()
-
-		ms := &dgo.MessageSend{
-			Embed: &dgo.MessageEmbed{
-				Image: &dgo.MessageEmbedImage{
-					URL: "attachment://" + fileName,
-				},
-			},
-			Files: []*dgo.File{
-				 &dgo.File{
-			            Name:   fileName,
-				    Reader: f,
-				},
-			},
-		}
-		fmt.Println(ms)
-		s.ChannelMessageSendComplex(m.ChannelID, ms)
+		s.ChannelMessageSendComplex(channel, ms)
 	}
 }
 
@@ -187,7 +199,8 @@ func (this *RareSummoning) getShikiInfo(content []Shikigami) string {
 	return result
 }
 
-func (this *RareSummoning) mergeShikiImg(content []Shikigami) {
+func (this *RareSummoning) mergeShikiImg(content []Shikigami,
+					 userID string) {
 	grids := []*gim.Grid{
 		{ImageFilePath: "data/img/shikigami/" + content[0].Image},
 		{ImageFilePath: "data/img/shikigami/" + content[1].Image},
@@ -204,7 +217,7 @@ func (this *RareSummoning) mergeShikiImg(content []Shikigami) {
 	if err != nil {
 		panic(err)
 	}
-	file, err := os.Create("tmp/rsum.png")
+	file, err := os.Create("tmp/rsum_" + userID + ".png")
 	if err != nil {
 		panic(err)
 	}
