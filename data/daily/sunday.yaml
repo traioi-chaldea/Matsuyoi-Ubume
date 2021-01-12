@@ -13,4 +13,4 @@
   demon_encounter: "tsuchigumo"
   netherworld_gate: true
 21:
-  guild_feast: true
+  guild_feast: false
